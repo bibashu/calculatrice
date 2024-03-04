@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="boxCalculator">
+        <div id="calculator">
+            <input type="text" id="display" readonly>
+            <div id="keys">
+                <button onclick="zoneTexte('+')" class="operator-btn">+</button>
+                <button onclick="zoneTexte('7')">7</button>
+                <button onclick="zoneTexte('8')">8</button>
+                <button onclick="zoneTexte('9')">9</button>
+                <button onclick="zoneTexte('-')" class="operator-btn">-</button>
+                <button onclick="zoneTexte('4')">4</button>
+                <button onclick="zoneTexte('5')">5</button>
+                <button onclick="zoneTexte('6')">6</button>
+                <button onclick="zoneTexte('*')" class="operator-btn">*</button>
+                <button onclick="zoneTexte('1')">1</button>
+                <button onclick="zoneTexte('2')">2</button>
+                <button onclick="zoneTexte('3')">3</button>
+                <button onclick="zoneTexte('/')" class="operator-btn">/</button>
+                <button onclick="zoneTexte('0')">0</button>
+                <button onclick="zoneTexte('.')">.</button>
+                <button onclick="calculer()">=</button>
+                <button onclick="effacer()" class="operator-btn">C</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+   
+</body>
+</html>
